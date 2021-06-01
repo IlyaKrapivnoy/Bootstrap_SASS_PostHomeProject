@@ -21,14 +21,25 @@
         position: relative;
     }
 
-    .header-language::after {
+    .header-language::before {
         content: "";
         position: absolute;
         background: url(../img/globe.png) no-repeat;
         width: 1.25rem;
         height: 1.25rem;
         top: 2px;
-        right: -23px;
+        right: 23px;
+    }
+
+    .header-language::after {
+        content: "";
+        position: absolute;
+        background: url(../img/arrow-down.png) no-repeat;
+        width: 8px;
+        height: 8px;
+        top: 9px;
+        right: -14px;
+        cursor: pointer;
     }
 
     .header-language span {
