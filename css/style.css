@@ -17,3 +17,41 @@ a {
 .container {
   max-width: 1080px;
 }
+
+.upper-header {
+  border-bottom: 1px solid #f0f0f0;
+  color: #464646;
+  font-size: 14px;
+}
+
+.upper-header .header-phone {
+  position: relative;
+}
+
+.upper-header .header-phone::before {
+  content: "";
+  position: absolute;
+  background: url(../img/phone.png) no-repeat;
+  width: 1rem;
+  height: 1rem;
+  top: 3px;
+  left: -23px;
+}
+
+.upper-header .header-language {
+  position: relative;
+}
+
+.upper-header .header-language::after {
+  content: "";
+  position: absolute;
+  background: url(../img/globe.png) no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
+  top: 2px;
+  right: -23px;
+}
+
+.upper-header .header-language span {
+  text-transform: uppercase;
+}
