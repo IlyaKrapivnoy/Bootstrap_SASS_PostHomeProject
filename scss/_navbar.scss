@@ -52,26 +52,32 @@ header {
 }
 .logo {
     margin-right: 40px;
-}
-.upper-logo span {
-    color: $green;
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 28.5px;
-}
-.lower-logo span {
-    color: #6a8a8a;
-    font-size: 11px;
-    line-height: 16.5px;
-    font-weight: 300;
+
+    a {
+        text-decoration: none;
+    }
+    .upper-logo span {
+        color: $green;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 28.5px;
+    }
+    .lower-logo span {
+        color: #6a8a8a;
+        font-size: 11px;
+        line-height: 16.5px;
+        font-weight: 300;
+    }
 }
 .navbar-light .navbar-nav .nav-link {
     font-size: 15px;
-}
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link:hover {
-    color: $brand-orange-first;
+    transition: color 0.2s ease-out;
+
+    &:focus,
+    &.active,
+    &:hover {
+        color: $brand-orange-first;
+    }
 }
 
 .dropdown-menu {
@@ -79,9 +85,9 @@ header {
     border: none;
     font-size: 14px;
     margin: 0.125rem 0 0 -1rem;
-}
 
-.dropdown-menu .dropdown-item:focus,
-.dropdown-menu .dropdown-item:hover {
-    color: $brand-orange-first;
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        color: $brand-orange-first;
+    }
 }
