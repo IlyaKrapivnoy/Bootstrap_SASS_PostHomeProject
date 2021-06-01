@@ -18,6 +18,10 @@ a {
   max-width: 1080px;
 }
 
+header {
+  background-color: #fbfbfb;
+}
+
 .upper-header {
   border-bottom: 1px solid #f0f0f0;
   color: #464646;
@@ -65,4 +69,28 @@ a {
 
 .upper-header .header-language span {
   text-transform: uppercase;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.upper-logo span {
+  color: #3a7b7b;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+
+.lower-logo span {
+  color: #6a8a8a;
+  font-size: 11px;
+  line-height: 16.5px;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f57559;
 }
