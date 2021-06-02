@@ -8,3 +8,14 @@
     opacity: 0.2;
     background: linear-gradient(90deg, rgba(119, 182, 183, 1) 16%, rgba(17, 53, 56, 1) 25%, rgba(17, 53, 56, 1) 46%);
 }
+.carousel-caption h5 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    // margin-bottom: 160px;
+}
+
+.carousel-caption {
+    top: 47%;
+    transform: translateY(-50%);
+}

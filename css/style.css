@@ -112,11 +112,11 @@ header {
 }
 
 .btn {
-  min-width: 142px;
-  height: 44px;
+  padding: 10px 32px;
   color: #fff;
   font-size: 15px;
   line-height: 29px;
+  font-weight: 500;
   background-color: #f98357;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
@@ -125,6 +125,10 @@ header {
 .btn:hover {
   background-color: #f57559;
   color: #fff;
+}
+
+.btn.btn-small {
+  padding: 6px 32px !important;
 }
 
 .carousel-item:after {
@@ -137,4 +141,16 @@ header {
   opacity: 0.2;
   background: -webkit-gradient(linear, left top, right top, color-stop(16%, #77b6b7), color-stop(25%, #113538), color-stop(46%, #113538));
   background: linear-gradient(90deg, #77b6b7 16%, #113538 25%, #113538 46%);
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+}
+
+.carousel-caption {
+  top: 47%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
