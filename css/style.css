@@ -182,3 +182,38 @@ header {
 .carousel-indicators li.active {
   background: #fff;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  position: relative;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-control-next-icon:after {
+  content: "";
+  font-size: 55px;
+  color: red;
+  background-image: url(/img/arrow-right.png);
+  position: absolute;
+  top: 0;
+  right: 6rem;
+  width: 18px;
+  height: 32px;
+}
+
+.carousel-control-prev-icon:after {
+  content: "";
+  font-size: 55px;
+  color: red;
+  background-image: url(/img/arrow-left.png);
+  position: absolute;
+  top: 0;
+  left: 6rem;
+  width: 18px;
+  height: 32px;
+}
