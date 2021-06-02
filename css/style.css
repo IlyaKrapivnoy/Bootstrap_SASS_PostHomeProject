@@ -154,3 +154,11 @@ header {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+.carousel-caption h5 {
+  margin-bottom: 0.75rem;
+}
+
+.carousel-caption p {
+  margin-bottom: 2rem;
+}
