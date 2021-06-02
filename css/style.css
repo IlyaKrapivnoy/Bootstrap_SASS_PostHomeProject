@@ -170,3 +170,15 @@ header {
 .carousel-caption p {
   margin-bottom: 2rem;
 }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  border: 3px solid #d4d4d4;
+}
+
+.carousel-indicators li.active {
+  background: #fff;
+}

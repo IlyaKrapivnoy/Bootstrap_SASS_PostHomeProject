@@ -27,3 +27,16 @@
         margin-bottom: 2rem;
     }
 }
+.carousel-indicators {
+    li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 0.5rem;
+        border: 3px solid rgb(212, 212, 212);
+
+        &.active {
+            background: $white;
+        }
+    }
+}
