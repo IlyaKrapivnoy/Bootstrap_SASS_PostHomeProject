@@ -26,4 +26,10 @@
     &.btn-blue {
         background-color: #2989dd;
     }
+
+    &.btn-outlined {
+        color: $white;
+        border: 2px solid $white;
+        background-color: transparent;
+    }
 }
