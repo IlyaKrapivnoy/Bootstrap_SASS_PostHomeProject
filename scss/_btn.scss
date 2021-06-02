@@ -8,14 +8,22 @@
 
     background-color: $brand-orange-first;
 
-    transition: background-color 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
 
     &:hover {
-        background-color: $brand-orange-second;
+        opacity: 0.9;
         color: $white;
     }
 
     &.btn-small {
         padding: 6px 32px !important;
+    }
+
+    &.btn-green {
+        background-color: $green;
+    }
+
+    &.btn-blue {
+        background-color: #2989dd;
     }
 }

@@ -118,17 +118,25 @@ header {
   line-height: 29px;
   font-weight: 500;
   background-color: #f98357;
-  -webkit-transition: background-color 0.2s ease-out;
-  transition: background-color 0.2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 
 .btn:hover {
-  background-color: #f57559;
+  opacity: 0.9;
   color: #fff;
 }
 
 .btn.btn-small {
   padding: 6px 32px !important;
+}
+
+.btn.btn-green {
+  background-color: #3a7b7b;
+}
+
+.btn.btn-blue {
+  background-color: #2989dd;
 }
 
 .carousel-item:after {
