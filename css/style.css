@@ -126,3 +126,15 @@ header {
   background-color: #f57559;
   color: #fff;
 }
+
+.carousel-item:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  background: -webkit-gradient(linear, left top, right top, color-stop(16%, #77b6b7), color-stop(25%, #113538), color-stop(46%, #113538));
+  background: linear-gradient(90deg, #77b6b7 16%, #113538 25%, #113538 46%);
+}
