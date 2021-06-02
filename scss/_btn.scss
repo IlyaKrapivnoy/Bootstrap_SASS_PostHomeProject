@@ -1,17 +1,19 @@
 .btn {
-    min-width: 142px;
-    height: 44px;
+  min-width: 142px;
+  height: 44px;
 
+  color: $white;
+  font-size: 15px;
+  line-height: 29px;
+
+  background-color: $brand-orange-first;
+
+  transition: background-color 0.2s ease-out;
+
+  &:hover {
+    background-color: $brand-orange-second;
     color: $white;
-    font-size: 15px;
-    line-height: 29px;
-
-    background-color: $brand-orange-first;
-
-    transition: background-color 0.2s ease-out;
-
-    &:hover {
-        background-color: $brand-orange-second;
-        color: $white;
-    }
+  }
 }
+
+// test
