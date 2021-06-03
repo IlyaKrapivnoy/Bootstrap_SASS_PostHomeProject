@@ -302,8 +302,18 @@ header {
     font-size: 16px;
     line-height: 20px;
   }
-  .carousel .mobile-screen-btn {
-    top: 10px;
+  .carousel .btn {
+    padding: 2px 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel .carousel-caption {
+    top: 44%;
+  }
+  .carousel .carousel-caption h5 {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
 
