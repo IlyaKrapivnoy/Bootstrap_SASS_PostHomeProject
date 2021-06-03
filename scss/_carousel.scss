@@ -1,75 +1,96 @@
-.carousel-item:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-    background: linear-gradient(90deg, rgba(119, 182, 183, 1) 16%, rgba(17, 53, 56, 1) 25%, rgba(17, 53, 56, 1) 46%);
-}
+.carousel {
+    .carousel-item:after {
+        content: "";
 
-.carousel-caption {
-    top: 47%;
-    transform: translateY(-50%);
-    // position: relative;
+        position: absolute;
+        left: 0;
+        top: 0;
 
-    h5 {
-        margin-bottom: 0.75rem;
-        font-size: 45px;
-        font-weight: 700;
-        line-height: 67.5px;
+        width: 100%;
+        height: 100%;
+
+        opacity: 0.2;
+
+        background: linear-gradient(
+            90deg,
+            rgba(119, 182, 183, 1) 16%,
+            rgba(17, 53, 56, 1) 25%,
+            rgba(17, 53, 56, 1) 46%
+        );
     }
 
-    p {
-        margin-bottom: 2rem;
-    }
-}
+    .carousel-caption {
+        top: 47%;
+        transform: translateY(-50%);
 
-.carousel-indicators {
-    li {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        margin: 0 0.5rem;
-        border: 3px solid rgb(212, 212, 212);
+        h5 {
+            margin-bottom: 0.75rem;
 
-        &.active {
-            background: $white;
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 67.5px;
+        }
+
+        p {
+            margin-bottom: 2rem;
         }
     }
-}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-image: none;
-    position: relative;
-}
-.carousel-control-next,
-.carousel-control-prev {
-    opacity: 1;
-}
+    .carousel-indicators {
+        li {
+            width: 10px;
+            height: 10px;
 
-.carousel-control-next-icon:after {
-    content: "";
-    font-size: 55px;
-    color: red;
-    background-image: url(/img/arrow-right.png);
-    position: absolute;
-    top: 0;
-    right: 6rem;
-    width: 18px;
-    height: 32px;
-}
+            border-radius: 50%;
 
-.carousel-control-prev-icon:after {
-    content: "";
-    font-size: 55px;
-    color: red;
-    background-image: url(/img/arrow-left.png);
-    position: absolute;
-    top: 0;
-    left: 6rem;
-    width: 18px;
-    height: 32px;
+            margin: 0 0.5rem;
+            border: 3px solid rgb(212, 212, 212);
+
+            &.active {
+                background: $white;
+            }
+        }
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-image: none;
+        position: relative;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        opacity: 1;
+    }
+
+    .carousel-control-next-icon:after {
+        content: "";
+
+        font-size: 55px;
+        color: red;
+
+        background-image: url(/img/arrow-right.png);
+
+        position: absolute;
+        top: 0;
+        right: 6rem;
+
+        width: 18px;
+        height: 32px;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: "";
+
+        font-size: 55px;
+        color: red;
+
+        background-image: url(/img/arrow-left.png);
+
+        position: absolute;
+        top: 0;
+        left: 6rem;
+
+        width: 18px;
+        height: 32px;
+    }
 }

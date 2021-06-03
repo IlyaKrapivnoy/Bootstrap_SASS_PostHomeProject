@@ -4,6 +4,7 @@ header {
 
 .upper-header {
     border-bottom: 1px solid #f0f0f0;
+
     color: #464646;
     font-size: 14px;
 
@@ -13,12 +14,15 @@ header {
 
     .header-phone::before {
         content: "";
+
         position: absolute;
-        background: url(../img/phone.png) no-repeat;
-        width: 1rem;
-        height: 1rem;
         top: 3px;
         left: -23px;
+
+        background: url(../img/phone.png) no-repeat;
+
+        width: 1rem;
+        height: 1rem;
     }
 
     .header-language {
@@ -27,22 +31,29 @@ header {
 
     .header-language::before {
         content: "";
+
         position: absolute;
-        background: url(../img/globe.png) no-repeat;
-        width: 1.25rem;
-        height: 1.25rem;
         top: 2px;
         right: 23px;
+
+        background: url(../img/globe.png) no-repeat;
+
+        width: 1.25rem;
+        height: 1.25rem;
     }
 
     .header-language::after {
         content: "";
+
         position: absolute;
-        background: url(../img/arrow-down.png) no-repeat;
-        width: 8px;
-        height: 8px;
         top: 9px;
         right: -14px;
+
+        background: url(../img/arrow-down.png) no-repeat;
+
+        width: 8px;
+        height: 8px;
+
         cursor: pointer;
     }
 
@@ -82,9 +93,11 @@ header {
 
 .dropdown-menu {
     background: #fbfbfb;
+
     border: none;
-    font-size: 14px;
     margin: 0.125rem 0 0 -1rem;
+
+    font-size: 14px;
 
     .dropdown-item:focus,
     .dropdown-item:hover {

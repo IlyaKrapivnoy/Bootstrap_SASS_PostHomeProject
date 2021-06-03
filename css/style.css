@@ -31,11 +31,11 @@ header {
 .upper-header .header-phone::before {
   content: "";
   position: absolute;
+  top: 3px;
+  left: -23px;
   background: url(../img/phone.png) no-repeat;
   width: 1rem;
   height: 1rem;
-  top: 3px;
-  left: -23px;
 }
 
 .upper-header .header-language {
@@ -45,21 +45,21 @@ header {
 .upper-header .header-language::before {
   content: "";
   position: absolute;
+  top: 2px;
+  right: 23px;
   background: url(../img/globe.png) no-repeat;
   width: 1.25rem;
   height: 1.25rem;
-  top: 2px;
-  right: 23px;
 }
 
 .upper-header .header-language::after {
   content: "";
   position: absolute;
+  top: 9px;
+  right: -14px;
   background: url(../img/arrow-down.png) no-repeat;
   width: 8px;
   height: 8px;
-  top: 9px;
-  right: -14px;
   cursor: pointer;
 }
 
@@ -102,8 +102,8 @@ header {
 .dropdown-menu {
   background: #fbfbfb;
   border: none;
-  font-size: 14px;
   margin: 0.125rem 0 0 -1rem;
+  font-size: 14px;
 }
 
 .dropdown-menu .dropdown-item:focus,
@@ -145,7 +145,7 @@ header {
   background-color: transparent;
 }
 
-.carousel-item:after {
+.carousel .carousel-item:after {
   content: "";
   position: absolute;
   left: 0;
@@ -157,24 +157,24 @@ header {
   background: linear-gradient(90deg, #77b6b7 16%, #113538 25%, #113538 46%);
 }
 
-.carousel-caption {
+.carousel .carousel-caption {
   top: 47%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
-.carousel-caption h5 {
+.carousel .carousel-caption h5 {
   margin-bottom: 0.75rem;
   font-size: 45px;
   font-weight: 700;
   line-height: 67.5px;
 }
 
-.carousel-caption p {
+.carousel .carousel-caption p {
   margin-bottom: 2rem;
 }
 
-.carousel-indicators li {
+.carousel .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -182,22 +182,22 @@ header {
   border: 3px solid #d4d4d4;
 }
 
-.carousel-indicators li.active {
+.carousel .carousel-indicators li.active {
   background: #fff;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
   background-image: none;
   position: relative;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carousel .carousel-control-next,
+.carousel .carousel-control-prev {
   opacity: 1;
 }
 
-.carousel-control-next-icon:after {
+.carousel .carousel-control-next-icon:after {
   content: "";
   font-size: 55px;
   color: red;
@@ -209,7 +209,7 @@ header {
   height: 32px;
 }
 
-.carousel-control-prev-icon:after {
+.carousel .carousel-control-prev-icon:after {
   content: "";
   font-size: 55px;
   color: red;
