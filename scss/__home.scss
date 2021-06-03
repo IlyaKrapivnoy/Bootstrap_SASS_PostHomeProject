@@ -14,9 +14,8 @@
         display: flex;
         padding-top: 35px;
     }
-    .about-img {
-        max-width: 554px;
-        height: auto;
+    img {
+        object-fit: cover;
     }
     .about-description {
         padding: 40px;

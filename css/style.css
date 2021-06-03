@@ -266,6 +266,18 @@ header {
   .carousel-caption p {
     font-size: 14px;
   }
+  .about .about-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about-description {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -314,9 +326,9 @@ header {
   padding-top: 35px;
 }
 
-.about .about-img {
-  max-width: 554px;
-  height: auto;
+.about img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .about .about-description {
