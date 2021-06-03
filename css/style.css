@@ -222,48 +222,48 @@ header {
 }
 
 @media (max-width: 1160px) {
-  .carousel-caption {
+  .carousel .carousel-caption {
     top: 38%;
   }
-  .carousel-caption h5 {
+  .carousel .carousel-caption h5 {
     font-size: 40px;
   }
-  .carousel-caption p {
+  .carousel .carousel-caption p {
     font-size: 15px;
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 980px) {
-  .carousel-caption {
+  .carousel .carousel-caption {
     top: 37%;
   }
-  .carousel-caption h5 {
+  .carousel .carousel-caption h5 {
     line-height: 50px;
     font-size: 34px;
   }
-  .carousel-caption p {
+  .carousel .carousel-caption p {
     font-size: 14px;
     margin-bottom: 15px;
   }
 }
 
 @media (max-width: 860px) {
-  .carousel-control-next,
-  .carousel-control-prev {
+  .carousel .carousel-control-next,
+  .carousel .carousel-control-prev {
     display: none;
   }
-  .carousel-indicators {
+  .carousel .carousel-indicators {
     display: none;
   }
-  .carousel-caption {
+  .carousel .carousel-caption {
     top: 40%;
   }
-  .carousel-caption h5 {
+  .carousel .carousel-caption h5 {
     font-size: 26px;
     line-height: 40px;
   }
-  .carousel-caption p {
+  .carousel .carousel-caption p {
     font-size: 14px;
   }
   .about .about-body {
@@ -281,28 +281,28 @@ header {
 }
 
 @media (max-width: 768px) {
-  .carousel-caption {
+  .carousel .carousel-caption {
     top: 38%;
   }
-  .carousel-caption h5 {
+  .carousel .carousel-caption h5 {
     font-size: 20px;
     line-height: 25px;
   }
-  .carousel-caption p {
+  .carousel .carousel-caption p {
     font-size: 12px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 620px) {
-  .carousel-caption {
+  .carousel .carousel-caption {
     top: 34%;
   }
-  .carousel-caption h5 {
+  .carousel .carousel-caption h5 {
     font-size: 16px;
     line-height: 20px;
   }
-  .mobile-screen-btn {
+  .carousel .mobile-screen-btn {
     top: 10px;
   }
 }
