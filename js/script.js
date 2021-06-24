@@ -4,7 +4,8 @@ jQuery(document).ready(($)=>{
         nav: true,
         items: 3,
         loop: true,
-        margin: 20
+        margin: 23,
+        dots: false,
     });
     
 });

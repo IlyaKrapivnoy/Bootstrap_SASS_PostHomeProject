@@ -1,3 +1,7 @@
+.element-1 {
+    margin: 45px 0;
+}
+
 .owl-prev {
     left: -30px;
 }
@@ -35,4 +39,54 @@
 
 .owl-next span, .owl-prev span {
     display: none;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-card {
+    background-color: #fff;
+    overflow: hidden;
+
+    .card-body {
+
+        .card-price {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+
+            .price {
+                color: $brand-orange-first;
+                font-size: 22px;
+                line-height: 33px;
+                font-weight: 600;
+            }
+
+            .duration {
+                line-height: 24px;
+                color: #574c4c;
+                opacity: .5;
+            }
+        }
+        .card-description {
+            font-size: 18px;
+            line-height: 27px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .card-location {
+            display: flex;
+
+            .location-icon {
+                width: 14px;
+                margin-top: 2px;
+            }
+            .location {
+                color: #646262;
+                margin-left: 9px;
+            }
+        }
+    }
+
 }
