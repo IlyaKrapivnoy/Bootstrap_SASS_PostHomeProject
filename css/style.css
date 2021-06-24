@@ -508,6 +508,11 @@ header {
     font-size: 15px;
     margin-bottom: 20px;
   }
+  .element-2 .owl-prev::after,
+  .element-2 .owl-next::after {
+    display: none;
+    min-height: 235px;
+  }
 }
 
 @media (max-width: 980px) {

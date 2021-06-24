@@ -24,18 +24,15 @@ $(document).ready(($)=>{
         items: 2,
         loop: true,
         margin: 40,
-        // lazyLoad: true,
-        // responsiveClass: true,
-        // responsive: {
-        //     0:{
-        //       items: 1
-        //     },
-        //     710:{
-        //       items: 2
-        //     },
-        //     840:{
-        //       items: 3
-        //     }
-        // }
+        responsiveClass: true,
+        responsive: {
+            0:{
+              items: 1,
+              navigation : false,
+            },
+            1140:{
+              items: 2,
+            },
+        }
     });
 });
