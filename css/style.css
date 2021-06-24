@@ -229,6 +229,81 @@ header {
   height: 32px;
 }
 
+.about {
+  padding: 6.5rem 0;
+}
+
+.about .about-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 35px;
+}
+
+.about img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.about .about-description {
+  padding: 40px;
+}
+
+.about .about-description .about-text {
+  line-height: 24px;
+  color: #c3c3c3;
+  padding-bottom: 35px;
+}
+
+.offer {
+  background-color: #f5fdff;
+  padding: 100px;
+}
+
+.offer .offer-description {
+  text-align: center;
+  color: #c3c3c3;
+}
+
+.owl-prev {
+  left: -30px;
+}
+
+.owl-next {
+  right: -30px;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 90px;
+}
+
+.owl-prev::after {
+  content: "";
+  font-size: 55px;
+  background-image: url(/img/arrow-gray-left.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 17px;
+  height: 32px;
+}
+
+.owl-next::after {
+  content: "";
+  font-size: 55px;
+  background-image: url(/img/arrow-gray-right.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 17px;
+  height: 32px;
+}
+
+.owl-next span, .owl-prev span {
+  display: none;
+}
+
 @media (max-width: 1160px) {
   .carousel .carousel-caption {
     top: 38%;
@@ -326,40 +401,4 @@ header {
     font-size: 16px;
     line-height: 20px;
   }
-}
-
-.about {
-  padding: 6.5rem 0;
-}
-
-.about .about-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 35px;
-}
-
-.about img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.about .about-description {
-  padding: 40px;
-}
-
-.about .about-description .about-text {
-  line-height: 24px;
-  color: #c3c3c3;
-  padding-bottom: 35px;
-}
-
-.offer {
-  background-color: #f5fdff;
-  padding: 100px;
-}
-
-.offer .offer-description {
-  text-align: center;
-  color: #c3c3c3;
 }

@@ -1,0 +1,38 @@
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev::after {
+    content: "";
+    font-size: 55px;
+    background-image: url(/img/arrow-gray-left.png);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17px;
+    height: 32px;
+}
+
+.owl-next::after {
+    content: "";
+    font-size: 55px;
+    background-image: url(/img/arrow-gray-right.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 32px;
+}
+
+.owl-next span, .owl-prev span {
+    display: none;
+}

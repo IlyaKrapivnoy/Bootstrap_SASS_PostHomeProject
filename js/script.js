@@ -6,4 +6,5 @@ jQuery(document).ready(($)=>{
         loop: true,
         margin: 20
     });
+    
 });
