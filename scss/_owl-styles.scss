@@ -1,42 +1,3 @@
-.element-1 {
-    margin-top: 45px;
-}
-
-.owl-prev {
-    left: -30px;
-}
-
-.owl-next {
-    right: -30px;
-}
-
-.owl-prev, .owl-next {
-    position: absolute;
-    top: 90px;
-}
-
-.owl-prev::after {
-    content: "";
-    font-size: 55px;
-    background-image: url(/img/arrow-gray-left.png);
-    position: absolute;
-    top: 3rem;
-    right: 0;
-    width: 17px;
-    height: 32px;
-}
-
-.owl-next::after {
-    content: "";
-    font-size: 55px;
-    background-image: url(/img/arrow-gray-right.png);
-    position: absolute;
-    top: 3rem;
-    left: 0;
-    width: 17px;
-    height: 32px;
-}
-
 .owl-next span, .owl-prev span {
     display: none;
 }
@@ -45,55 +6,201 @@
     display: none;
 }
 
-.owl-card {
-    background-color: #fff;
-    overflow: hidden;
-    cursor: pointer;
+.element-1 {
+    margin-top: 45px;
 
-    transition: .2s opacity ease;
-
-    &:hover {
-       opacity: .7;
+    .owl-prev {
+        left: -30px;
     }
 
-    .card-body {
+    .owl-next {
+        right: -30px;
+    }
 
-        .card-price {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 6px;
+    .owl-prev, .owl-next {
+        position: absolute;
+        top: 90px;
+    }
 
-            .price {
-                color: $brand-orange-first;
-                font-size: 22px;
-                line-height: 33px;
+    .owl-prev::after {
+        content: "";
+        font-size: 55px;
+        background-image: url(/img/arrow-gray-left.png);
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 17px;
+        height: 32px;
+    }
+
+    .owl-next::after {
+        content: "";
+        font-size: 55px;
+        background-image: url(/img/arrow-gray-right.png);
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 17px;
+        height: 32px;
+    }
+
+    .owl-card {
+        background-color: #fff;
+        // overflow: hidden;
+        cursor: pointer;
+
+        transition: .2s opacity ease;
+
+        &:hover {
+        opacity: .7;
+        }
+
+        .card-body {
+
+            .card-price {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 6px;
+
+                .price {
+                    color: $brand-orange-first;
+                    font-size: 22px;
+                    line-height: 33px;
+                    font-weight: 600;
+                }
+
+                .duration {
+                    line-height: 24px;
+                    color: #574c4c;
+                    opacity: .5;
+                }
+            }
+            .card-description {
+                font-size: 18px;
+                line-height: 27px;
                 font-weight: 600;
+                margin-bottom: 12px;
             }
+            .card-location {
+                display: flex;
 
-            .duration {
-                line-height: 24px;
-                color: #574c4c;
-                opacity: .5;
+                .location-icon {
+                    width: 14px;
+                    margin-top: 2px;
+                }
+                .location {
+                    color: #646262;
+                    margin-left: 9px;
+                }
             }
         }
-        .card-description {
-            font-size: 18px;
-            line-height: 27px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .card-location {
-            display: flex;
 
-            .location-icon {
-                width: 14px;
-                margin-top: 2px;
-            }
-            .location {
-                color: #646262;
-                margin-left: 9px;
-            }
-        }
+    }
+}
+.element-2 { 
+
+    .owl-prev {
+        left: -30px;
     }
 
+    .owl-next {
+        right: -30px;
+    }
+
+    .owl-prev, .owl-next {
+        position: absolute;
+        top: 90px;
+    }
+
+    .owl-prev::after {
+        content: "";
+        font-size: 55px;
+        background-image: url(/img/arrow-gray-left.png);
+        position: absolute;
+        top: 3rem;
+        right: 0;
+        width: 17px;
+        height: 32px;
+    }
+
+    .owl-next::after {
+        content: "";
+        font-size: 55px;
+        background-image: url(/img/arrow-gray-right.png);
+        position: absolute;
+        top: 3rem;
+        left: 0;
+        width: 17px;
+        height: 32px;
+    }
+
+    .owl-testimonials-card {
+        padding: 30px 30px 50px 30px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+
+        min-height: 290px;
+        margin: 10px;
+
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+
+        .owl-testimonials-card-header {
+            display: flex;
+            margin-bottom: 25px;
+            cursor: pointer;
+
+            .card-img {
+                width: 48px;
+                height: 48px;
+                margin-right: 1rem;
+            }
+            .header-info {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            
+                .card-info {
+                    display: flex;
+                    flex-direction: column;
+                    .name {
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 27px;
+                        margin-bottom: 10px;
+                    }
+                    .rate {
+                        width: 22px;
+                        height: auto;
+                        display: inline-flex;
+
+                        img {
+                            margin: 0 2px;
+                            cursor: pointer;
+                        }
+
+                        .unrate {
+                            opacity: .3;
+                        }
+                    }
+                }
+                .card-location {
+                    display: flex;
+                    justify-content: flex-end;
+
+                    .location {
+                        margin-left: 10px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #646262;
+                    }
+
+                }
+            }
+        }
+        .owl-testimonials-card-body p {
+            line-height: 28px;
+            color: #3C3C3C;
+        }
+    }
 }
+
