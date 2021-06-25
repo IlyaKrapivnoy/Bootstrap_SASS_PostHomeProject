@@ -240,7 +240,7 @@ header .dropdown-menu .dropdown-item:hover {
   content: "";
   font-size: 55px;
   color: red;
-  background-image: url(/img/arrow-right.png);
+  background-image: url(../img/arrow-right.png);
   position: absolute;
   top: 0;
   right: 6rem;
@@ -252,7 +252,7 @@ header .dropdown-menu .dropdown-item:hover {
   content: "";
   font-size: 55px;
   color: red;
-  background-image: url(/img/arrow-left.png);
+  background-image: url(../img/arrow-left.png);
   position: absolute;
   top: 0;
   left: 6rem;
