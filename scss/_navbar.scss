@@ -8,6 +8,19 @@ header {
     color: #464646;
     font-size: 14px;
 
+    .header-number {
+        font-size: 14px;
+        color: #464646;
+
+        text-decoration: none;
+
+        transition: color .1s ease;
+
+        &:hover {
+            color: $brand-orange-first;
+        }
+    }
+
     .header-phone {
         position: relative;
     }

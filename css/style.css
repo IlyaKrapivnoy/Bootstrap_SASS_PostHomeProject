@@ -32,6 +32,18 @@ header {
   font-size: 14px;
 }
 
+.upper-header .header-number {
+  font-size: 14px;
+  color: #464646;
+  text-decoration: none;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+.upper-header .header-number:hover {
+  color: #f98357;
+}
+
 .upper-header .header-phone {
   position: relative;
 }
