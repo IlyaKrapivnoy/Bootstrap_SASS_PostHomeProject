@@ -62,11 +62,30 @@ header {
   position: relative;
 }
 
+.upper-header .header-language .dropdown a {
+  color: #464646;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+.upper-header .header-language .dropdown a:hover {
+  color: #f98357;
+}
+
+.upper-header .header-language::after {
+  visibility: hidden !important;
+}
+
+.upper-header .dropdown-menu {
+  min-width: 66px;
+  left: -8px !important;
+}
+
 .upper-header .header-language::before {
   content: "";
   position: absolute;
   top: 2px;
-  right: 23px;
+  right: 2.7rem;
   background: url(../img/globe.png) no-repeat;
   width: 1.25rem;
   height: 1.25rem;

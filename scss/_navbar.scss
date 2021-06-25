@@ -40,14 +40,32 @@ header {
 
     .header-language {
         position: relative;
+
+        .dropdown a {
+            color: #464646;
+
+            transition: color .1s ease;
+
+            &:hover {
+                color: $brand-orange-first;
+            }
+        }
+        &::after {
+            visibility: hidden !important;
+        }
     }
+
+    .dropdown-menu {
+        min-width: 66px;
+        left: -8px !important;
+      }
 
     .header-language::before {
         content: "";
 
         position: absolute;
         top: 2px;
-        right: 23px;
+        right: 2.7rem;
 
         background: url(../img/globe.png) no-repeat;
 
