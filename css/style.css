@@ -596,6 +596,10 @@ header {
   padding: 0 25px;
 }
 
+.lower-footer ul li:first-child {
+  padding-left: 0;
+}
+
 .lower-footer ul li:last-child {
   padding-right: 0;
 }
@@ -686,6 +690,12 @@ header {
   footer .upper-footer .col {
     padding-bottom: 20px;
   }
+  footer .upper-footer .col:last-child {
+    margin-right: 0;
+  }
+  footer .upper-footer .col:first-child {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -712,6 +722,23 @@ header {
   }
   .carousel .btn {
     padding: 2px 12px;
+  }
+  .lower-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .lower-footer ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  .lower-footer ul li {
+    padding: 0;
   }
 }
 
