@@ -518,6 +518,14 @@ header {
   color: #747474;
 }
 
+.upper-footer .col:last-child {
+  margin-right: -16px;
+}
+
+.upper-footer .col:first-child {
+  margin-left: -16px;
+}
+
 .upper-footer .col .logo {
   margin-bottom: 15px;
   width: 100%;
@@ -533,6 +541,10 @@ header {
 
 .upper-footer .col .map p {
   margin: 10px 0 12px;
+}
+
+.upper-footer .col .map-img {
+  width: 100%;
 }
 
 .upper-footer .col .contacts a {

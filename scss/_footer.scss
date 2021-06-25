@@ -6,6 +6,15 @@
     color: #747474;
 
     .col {
+
+        &:last-child {
+            margin-right: -16px;
+        }
+
+        &:first-child {
+            margin-left: -16px;
+        }
+
         .logo {
             margin-bottom: 15px;
 
@@ -22,6 +31,10 @@
 
         .map p {
             margin: 10px 0 12px;
+        }
+
+        .map-img {
+            width: 100%;
         }
 
         .contacts a {
