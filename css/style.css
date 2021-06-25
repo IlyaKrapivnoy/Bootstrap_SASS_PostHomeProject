@@ -106,28 +106,6 @@ header .upper-header .header-language span {
   text-transform: uppercase;
 }
 
-header .logo {
-  margin-right: 40px;
-}
-
-header .logo a {
-  text-decoration: none;
-}
-
-header .logo .upper-logo span {
-  color: #3a7b7b;
-  font-size: 19px;
-  font-weight: 700;
-  line-height: 28.5px;
-}
-
-header .logo .lower-logo span {
-  color: #6a8a8a;
-  font-size: 11px;
-  line-height: 16.5px;
-  font-weight: 300;
-}
-
 header .navbar-light .navbar-nav .nav-link {
   font-size: 15px;
   -webkit-transition: color 0.2s ease-out;
@@ -148,6 +126,28 @@ header .dropdown-menu {
 header .dropdown-menu .dropdown-item:focus,
 header .dropdown-menu .dropdown-item:hover {
   color: #f98357;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo .upper-logo span {
+  color: #3a7b7b;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 28.5px;
+}
+
+.logo .lower-logo span {
+  color: #6a8a8a;
+  font-size: 11px;
+  line-height: 16.5px;
+  font-weight: 300;
 }
 
 .btn {
