@@ -525,11 +525,23 @@ header {
   color: #0F3535;
   font-size: 15px;
   font-weight: 700;
-  margin-bottom: 10px;
+}
+
+.upper-footer .col .contacts a {
+  color: #464646;
+  display: block;
+  margin: 10px 0;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+.upper-footer .col .contacts a:hover {
+  color: #f98357;
+  text-decoration: none;
 }
 
 .upper-footer .col .socials > a > img {
-  padding: 0 10px;
+  padding: 10px 10px 0;
   -webkit-transition: opacity .2s ease;
   transition: opacity .2s ease;
 }

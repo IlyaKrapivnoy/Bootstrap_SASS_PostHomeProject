@@ -12,11 +12,25 @@
             color: #0F3535;
             font-size: 15px;
             font-weight: 700;
-            margin-bottom: 10px;
+            // margin-bottom: 10px;
+        }
+
+        .contacts a {
+            color: #464646;
+            display: block;
+
+            margin: 10px 0;
+
+            transition: color .1s ease;
+
+            &:hover {
+                color: $brand-orange-first;
+                text-decoration: none; 
+            }
         }
 
         .socials > a > img {
-            padding: 0 10px;
+            padding: 10px 10px 0;
 
             transition: opacity .2s ease;
 
