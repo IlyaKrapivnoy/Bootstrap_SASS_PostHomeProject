@@ -1,5 +1,7 @@
 @media (max-width: 1160px) {
+
     .carousel {
+
         .carousel-caption {
             top: 38%;
 
@@ -12,7 +14,9 @@
             }
         }
     }
+
     .element-2 {
+
         .owl-prev::after, 
         .owl-next::after {
             display: none;
@@ -20,8 +24,11 @@
         }
     }
 }
+
 @media (max-width: 980px) {
+
     .carousel {
+
         .carousel-caption {
             top: 37%;
 
@@ -35,19 +42,24 @@
             }
         }
     }
+
     .navbar-collapse {
         margin: 1rem 0 2rem;
     }
 }
 @media (max-width: 860px) {
+
     .carousel {
+
         .carousel-control-next,
         .carousel-control-prev {
             display: none;
         }
+
         .carousel-indicators {
             display: none;
         }
+
         .carousel-caption {
             top: 40%;
 
@@ -61,17 +73,32 @@
         }
     }
     .about {
+
         .about-body {
             display: flex;
             flex-direction: column;
         }
+
         .about-description {
             text-align: center;
         }
     }
+
+    footer {
+        .upper-footer {
+            flex-direction: column;
+            text-align: center;
+
+            .col {
+                padding-bottom: 20px;
+            }
+        }
+    }
 }
 @media (max-width: 768px) {
+
     .carousel {
+
         .carousel-caption {
             top: 38%;
 
@@ -87,7 +114,9 @@
     }
 }
 @media (max-width: 620px) {
+
     .carousel {
+
         .carousel-caption {
             top: 34%;
 
@@ -96,13 +125,16 @@
                 line-height: 20px;
             }
         }
+
         .btn {
             padding: 2px 12px;
         }
     }
 }
 @media (max-width: 576px) {
+
     .carousel {
+
         .carousel-caption {
             top: 44%;
 

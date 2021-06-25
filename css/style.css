@@ -514,17 +514,25 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin: 30px 0;
+  font-size: 14px;
+  color: #747474;
 }
 
 .upper-footer .col .logo {
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .upper-footer .col .contacts span,
 .upper-footer .col .map span {
   color: #0F3535;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.upper-footer .col .map p {
+  margin: 10px 0 12px;
 }
 
 .upper-footer .col .contacts a {
@@ -541,7 +549,7 @@ header {
 }
 
 .upper-footer .col .socials > a > img {
-  padding: 10px 10px 0;
+  padding: 10px 7px 0;
   -webkit-transition: opacity .2s ease;
   transition: opacity .2s ease;
 }
@@ -618,6 +626,16 @@ header {
   }
   .about .about-description {
     text-align: center;
+  }
+  footer .upper-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  footer .upper-footer .col {
+    padding-bottom: 20px;
   }
 }
 
