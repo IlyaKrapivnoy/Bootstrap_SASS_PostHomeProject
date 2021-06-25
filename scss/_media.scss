@@ -72,7 +72,9 @@
             }
         }
     }
+
     .about {
+        padding: 3rem 0;
 
         .about-body {
             display: flex;
@@ -81,7 +83,17 @@
 
         .about-description {
             text-align: center;
+            padding: 20px; 
+
+            .about-text {
+                padding-bottom: 15px;
+            }
         }
+    }
+
+    .offer, .testimonials {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     footer {
@@ -118,6 +130,10 @@
                 line-height: 20px;
             }
         }
+    }
+
+    .about .about-body {
+        padding-top: 10px;
     }
 }
 @media (max-width: 620px) {
@@ -164,5 +180,29 @@
                 line-height: 20px;
             }
         }
+    }
+
+    .about, .offer, .testimonials {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .carousel {
+
+        .carousel-caption {
+            top: 35%;
+        }
+    }
+
+    .owl-next::after,
+    .owl-prev::after {
+        display: none;
+    }
+    
+    .block-title h2 {
+        font-size: 24px;
     }
 }
