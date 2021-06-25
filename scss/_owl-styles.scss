@@ -9,50 +9,55 @@
 .element-1 {
     margin-top: 45px;
 
-    .owl-prev {
-        left: -30px;
-    }
-
-    .owl-next {
-        right: -30px;
-    }
-
     .owl-prev, .owl-next {
         position: absolute;
         top: 90px;
     }
+    
+    .owl-prev {
+        left: -30px;
 
-    .owl-prev::after {
-        content: "";
-        font-size: 55px;
-        background-image: url(/img/arrow-gray-left.png);
-        position: absolute;
-        top: 3rem;
-        right: 0;
-        width: 17px;
-        height: 32px;
+        &::after {
+            content: "";
+            background-image: url(/img/arrow-gray-left.png);
+
+            font-size: 55px;
+
+            position: absolute;
+            top: 3rem;
+            right: 0;
+
+            width: 17px;
+            height: 32px;
+        }
     }
 
-    .owl-next::after {
-        content: "";
-        font-size: 55px;
-        background-image: url(/img/arrow-gray-right.png);
-        position: absolute;
-        top: 3rem;
-        left: 0;
-        width: 17px;
-        height: 32px;
+    .owl-next {
+        right: -30px;
+
+        &::after {
+            content: "";
+            background-image: url(/img/arrow-gray-right.png);
+
+            font-size: 55px;
+
+            position: absolute;
+            top: 3rem;
+            left: 0;
+
+            width: 17px;
+            height: 32px;
+        }
     }
 
     .owl-card {
         background-color: #fff;
-        // overflow: hidden;
         cursor: pointer;
 
         transition: .2s opacity ease;
 
         &:hover {
-        opacity: .7;
+            opacity: .7;
         }
 
         .card-body {
@@ -60,6 +65,7 @@
             .card-price {
                 display: flex;
                 justify-content: space-between;
+
                 margin-bottom: 6px;
 
                 .price {
@@ -75,12 +81,15 @@
                     opacity: .5;
                 }
             }
+
             .card-description {
                 font-size: 18px;
                 line-height: 27px;
                 font-weight: 600;
+
                 margin-bottom: 12px;
             }
+
             .card-location {
                 display: flex;
 
@@ -88,50 +97,56 @@
                     width: 14px;
                     margin-top: 2px;
                 }
+
                 .location {
                     color: #646262;
                     margin-left: 9px;
                 }
             }
         }
-
     }
 }
-.element-2 { 
+.element-2 {
 
     .owl-prev {
         left: -30px;
+
+        &::after {
+            content: "";
+            background-image: url(/img/arrow-gray-left.png);
+
+            font-size: 55px;
+
+            position: absolute;
+            top: 3rem;
+            right: 0;
+
+            width: 17px;
+            height: 32px;
+        }
     }
 
     .owl-next {
         right: -30px;
+
+        &::after {
+            content: "";
+            background-image: url(/img/arrow-gray-right.png);
+
+            font-size: 55px;
+
+            position: absolute;
+            top: 3rem;
+            left: 0;
+
+            width: 17px;
+            height: 32px;
+        }
     }
 
     .owl-prev, .owl-next {
         position: absolute;
         top: 90px;
-    }
-
-    .owl-prev::after {
-        content: "";
-        font-size: 55px;
-        background-image: url(/img/arrow-gray-left.png);
-        position: absolute;
-        top: 3rem;
-        right: 0;
-        width: 17px;
-        height: 32px;
-    }
-
-    .owl-next::after {
-        content: "";
-        font-size: 55px;
-        background-image: url(/img/arrow-gray-right.png);
-        position: absolute;
-        top: 3rem;
-        left: 0;
-        width: 17px;
-        height: 32px;
     }
 
     .owl-testimonials-card {
@@ -158,22 +173,27 @@
             .card-img {
                 width: 48px;
                 height: 48px;
+
                 margin-right: 1rem;
             }
+
             .header-info {
                 width: 100%;
+
                 display: flex;
                 justify-content: space-between;
             
                 .card-info {
                     display: flex;
                     flex-direction: column;
+
                     .name {
                         font-weight: 600;
                         font-size: 18px;
                         line-height: 27px;
                         margin-bottom: 10px;
                     }
+
                     .rate {
                         width: 22px;
                         height: auto;
@@ -189,12 +209,14 @@
                         }
                     }
                 }
+
                 .card-location {
                     display: flex;
                     justify-content: flex-end;
 
                     .location {
                         margin-left: 10px;
+
                         font-weight: 400;
                         font-size: 14px;
                         color: #646262;
