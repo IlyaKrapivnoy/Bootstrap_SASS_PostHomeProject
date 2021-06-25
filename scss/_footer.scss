@@ -6,13 +6,27 @@
         .logo {
             margin-bottom: 15px;
         }
-        
+
         .contacts span,
         .map span {
             color: #0F3535;
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 10px;
+        }
+
+        .socials > a > img {
+            padding: 0 10px;
+
+            transition: opacity .2s ease;
+
+            &:hover {
+                opacity: .7;
+            }
+
+            &:first-child {
+                padding-left: 0;
+            }
         }
     }
 }

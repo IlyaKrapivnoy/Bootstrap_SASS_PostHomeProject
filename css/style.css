@@ -528,6 +528,20 @@ header {
   margin-bottom: 10px;
 }
 
+.upper-footer .col .socials > a > img {
+  padding: 0 10px;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+.upper-footer .col .socials > a > img:hover {
+  opacity: .7;
+}
+
+.upper-footer .col .socials > a > img:first-child {
+  padding-left: 0;
+}
+
 @media (max-width: 1160px) {
   .carousel .carousel-caption {
     top: 38%;
